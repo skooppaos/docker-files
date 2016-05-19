@@ -114,4 +114,4 @@ RUN buildDeps=" build-base re2c file readline-dev autoconf binutils bison \
 
 EXPOSE 9000
 
-CMD ["sh"]
+CMD ["php", "-a"]
